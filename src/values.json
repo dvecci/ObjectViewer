@@ -1,0 +1,10 @@
+{
+  "first": {
+    "second": {
+      "third": {
+        "thirdKey": 1
+      },
+      "thirdString": "thirdString"
+    }
+  }
+}

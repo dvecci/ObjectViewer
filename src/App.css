@@ -1,0 +1,18 @@
+.expandIcon::before {
+    content: '';
+    background: url('./expandTriangle.png') center 23px / 8px 8px no-repeat;
+    height: 2rem;
+    width: 2rem;
+    display: inline-block;
+    transition: all .3s;
+}
+
+.openExpandIcon::before {
+    content: '';
+    background: url('./expandTriangle.png') center 23px / 8px 8px no-repeat;
+    height: 2rem;
+    width: 2rem;
+    display: inline-block;
+    transform: rotate(90deg);
+    transition: all .3s;
+}
